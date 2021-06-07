@@ -1,0 +1,477 @@
+/*
+Author Name:Rakibul Hasan;
+Email Address:rakibulhasan80higri@gmail.com;
+Site url:www.80-hijri@gmil.com;
+GPL Licence:4.10;
+*/
+/*
+====Index====
+1.Home     
+2.About Us
+3.Our Approch
+4.Our Work
+5.Free Consultation  
+*/
+
+/* Global css section-------------------------------*/
+
+/*Theme css section start---------------------------------*/
+ 
+/*header section start-------------------------------------*/
+header{
+	background-color: #f0f2f4;
+	color: #424242;
+	padding: 5px 0;
+	
+
+}
+header .fa.fa-mobile{
+	font-size: 24px;
+	margin-right:10px;
+}
+header .fa.fa-envelope{
+	font-size: 19px;
+	margin-right: 5px;
+}
+header .fa.fa-facebook{
+	font-size: 16px;
+	
+	background: #1287bf;
+	color:white;
+	padding: 5px 10px;
+	border-radius: 5px;
+
+}
+header .fa.fa-facebook:hover{
+ transform: scale(1.5);
+}
+
+label{
+	margin-right: 20px;
+}
+/*navigation section start----------------------------------*/
+.nav-bg{
+	
+}
+.nav-item a{
+
+	color:black;
+	font-size: 15px;
+	margin-right: 10px;
+}
+
+
+.nav-item a:hover {
+	color: #bb174d;
+}
+
+
+
+.nav-bg span{
+	margin-right: 5px;
+	font-size: ;
+}
+/*banner section start-------------------------------------*/
+.banner{
+	background:url(../img/bg.png)center top;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	padding: 100px 0;
+}
+.banner h2{
+	font-size: 48px;
+}
+.banner p{
+	font-size: 30px;
+}
+.banner button{
+	font-size: 24px;
+	background: #f8cd53;
+	color: white;
+	padding: 20px 30px;	
+	border: none;
+	margin-top: 30px;
+}
+/*about section-----------------------------------------*/
+.about{
+	padding: 100px 0;
+}
+.about-title{
+	text-align: center;
+}
+.about-title h2{
+	font-size: 36px;
+}
+.about-title p{
+	font-size: 20px;
+}
+.about-title span{
+	display: block;
+	width: 10%;
+	border-bottom: 3px solid black;
+	margin: 10px auto;
+}
+.about-feature{
+	text-align: center;
+	margin-top: 50px;
+}
+.about-feature img{
+
+}
+.about-feature h2{
+	font-size: 22px;
+	margin-bottom: 19px;
+	margin-top: 27px;
+}
+
+.about-feature p{
+font-size: 13px;
+}
+
+/*approch section start-----------------------------------------*/
+.approch{
+	background: #f3f3f3;
+}
+
+/*--feature section start----------------------------------------*/
+
+.feature{
+	padding: 0px;
+	background: #f3f3f3;
+
+}
+.left{
+	background: white;
+	margin-bottom: 40px;
+}
+
+.image{
+	position: relative;
+}
+.pos{
+	background: #de2b24;
+	position: absolute;
+	width: 30%;
+	text-align: center;
+	top: 22%;
+	left: 84%;
+	color: white;
+	border: 2px solid white;
+}
+.pos h2{
+	font-size: 60px;
+}
+.pos p{
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+
+.no-padding{
+	padding: 0px;
+}
+
+
+.content{
+	padding: 60px 0;
+}
+
+.content h3{
+	
+}
+.content p{
+	
+}
+.right{
+	background: white;
+	margin-bottom: 40px;
+}
+.right .content{
+	text-align: right;
+}
+.right .pos{
+	background: #de2b24;
+	position: absolute;
+	width: 30%;
+	text-align: center;
+	top: 22%;
+	left:-15%;
+	color: white;
+	border: 2px solid white;
+}
+
+
+/*----------work section start---------------------------*/
+
+.work{
+	background: #de2b24;
+}
+.work-title{
+	text-align: center;
+	color: white;
+}
+
+.work-title h2{
+	
+}
+.work-title p{
+	
+}
+.work-title span{
+	display: block;
+	width: 20%;
+	border-bottom: 2px solid white;
+	margin: 30px auto;
+}
+.work-content{
+	background: #f35e59;
+	text-align: center;
+	color: white;
+	padding-top: 60px;
+}
+.work-content .fa.fa-paper-plane-o{
+	margin-bottom: 20px;
+}
+.work-content h4{
+	
+}
+.work-content p{
+	margin-top: -10px;
+}
+
+
+.work-img{
+
+}
+
+/*analysis section start-----------------------*/
+
+.analysis{
+	background: #1287bf;
+}
+
+
+
+.tt{
+	text-align: center;
+	color: white;
+
+}
+.contact-form{
+	background: white;
+	padding: 70px;
+	text-align: center;
+	margin: 30px 0;
+}
+.contact-form p{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.fa-chevron-down{
+	font-size: 30px;
+	border: 2px solid white;
+	padding: 8px 8px;
+	border-radius: 40px;
+}
+
+.contact-form .form-ctl{
+	width: 90%;
+	margin-bottom: 8px;
+	padding: 20px;
+	font-size: 14px;
+	border: 1px solid #d8d8d8;
+}
+.contact-form .submit-btn{
+	background: #de2b24;
+	padding: 10px 30px;
+	color: white;
+	font-size: 15px;
+	margin-top: 40px;
+	border: none;
+
+}
+
+.con-posi{
+	position: absolute;
+	font-size: 85px;
+	color: white;
+	top:-16%;
+	left: 46.5%;
+}
+
+/*contact section start---------------------*/
+.contact{
+	background: #2a2a2a;
+	color: white;
+	text-align: center;
+}
+.contact i{
+	border: 2px solid #515151;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-right: 20px;
+	color: white;
+
+}
+
+
+
+
+
+.contact i:hover{
+	border: 2px solid #de2b24;
+}
+
+.contact .fa.fa-facebook{
+	background: transparent;
+}
+.contact h2{
+	margin-bottom: 25px;
+}
+.contact p{
+	margin: 30px 0;
+}
+.contact .form-ctl{
+	width: 100%;
+	background: #515151;
+	border: none;
+	padding: 10px 20px;
+
+}
+
+.contact ::placeholder{
+	color: #.contact;
+}
+.contact .submit-btn{
+	margin: 30px 0;
+	font-size: 17px;
+	padding: 16px 40px;
+	background: transparent;
+	border: 2px solid #515151;
+	color: white;
+}
+/*footer section start-----------------------*/
+footer{
+	text-align: center;
+	background: #515151;
+
+}
+footer p{
+	color: #cecece;
+	padding: 25px 0;
+}
+.image img{
+
+	width: 100%;
+}
+
+
+
+
+
+/*Media Query start-----------------*/
+/*mobile section start----------------------------*/
+@media(min-width: 320px) and (max-width: 500px) {
+
+.pos{
+	
+	width: 10%;
+	top: 0%;
+	left: 0%;
+	color: white;
+
+}
+.work-img img {
+	display: block;
+	margin: 0 auto;}
+
+.image img{
+	display: block;
+	margin: 0 auto;
+}
+
+.right .pos{
+	
+	width: 10%;
+	top:0%;
+	left:0%;}
+.pos h2{
+	font-size: 30px;
+}
+.pos p{
+	font-size: 10px;
+	margin-top: -15px;
+}
+.new{
+	flex-direction: column;
+}
+.navbar-nav span{
+	color: green;
+	font-size:0px;
+}
+a.nav-link.js-scroll-trigger {
+   text-align: center;
+}
+
+
+
+
+}
+
+/* small device-------------------------------------*/
+@media(min-width: 501px) and (max-width: 768px){
+
+.navbar-nav span{
+	color: green;
+	font-size:0px;
+}
+a.nav-link.js-scroll-trigger {
+    margin-left:86px;
+    
+}
+.banner h2{
+	color: red;
+}
+
+.work-img img.img-fluid {
+
+    width: 100%;
+
+}
+.pos{
+	
+	width: 10%;
+	top: 0%;
+	left: 0%;
+	color: white;
+
+}
+.right .pos{
+	
+	width: 10%;
+	top:0%;
+	left:0%;}
+
+.pos h2{
+	font-size: 30px;
+}
+.pos p{
+	font-size: 10px;
+	margin-top: -15px;
+}
+
+
+
+
+}
+/*large device------------------------------------------*/
+@media(min-width:1201px) {
+
+
+
+
+}
